@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import plotly.graph_objects as go
-import plotly.express as px
 
 def calcular_proficiencia_na_escala(proficiencia, limite_inferior, limite_superior):
     """Converte a proficiência para uma escala de 0 a 10"""
